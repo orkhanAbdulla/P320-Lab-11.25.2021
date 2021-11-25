@@ -1,0 +1,53 @@
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.bg-black{
+    background-color: #000;
+}
+.header .custom-nav .custom-nav-link{
+    padding: 32px 24px;
+}
+#intro{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#intro .grayscale{
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 100px;
+    letter-spacing: 15px;
+}
+#intro .intro-text{
+    font-size: 22px;
+    width: 60%;
+}
+#intro .my-btn{
+    background-color: #64a19d;
+    border-style: none;
+    padding: 20px 30px;
+    font-size: 14px;
+    letter-spacing: 4px;
+    color: #fff;
+}
+#about{
+    background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+    padding-top: 120px;
+}
+#about p{
+    font-size: 18px;
+    margin-bottom: 90px;
+}
+#about a{
+    color: #64a19d;
+}
+@media screen and (max-width:700px){
+    #intro .grayscale{
+        font-size: 40px;
+    }
+}
